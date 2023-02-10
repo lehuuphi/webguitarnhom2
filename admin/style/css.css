@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+:root{
+    --white-color:white;
+    --black-color:black;
+}
+
+.header{
+    height: 80px;
+    background-color: #ff8000;
+}
+
+h1{
+    line-height: 80px;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffe500;
+}
+
+.menu li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.menu li:hover{
+    background-color: #dbce5a;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+/* content */
+
+.content{
+    display: flex;
+}
